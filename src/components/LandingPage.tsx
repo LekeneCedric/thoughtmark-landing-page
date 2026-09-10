@@ -106,6 +106,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
           <ul className="nav-links">
             <li><a href="#use-cases" data-i18n="navUseCases">Use Cases</a></li>
             <li><a href="#capabilities" data-i18n="navCapabilities">Capabilities</a></li>
+            <li><a href="#demo" data-i18n="navHow">How it works</a></li>
             <li><a href="#comparison" data-i18n="navComparison">Comparison</a></li>
             {reviewsList.length > 0 && (
               <li><a href="#reviews">Reviews</a></li>
