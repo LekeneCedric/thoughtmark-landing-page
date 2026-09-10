@@ -826,6 +826,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
       {/* ══════════════════════════════════════════════
        ABOUT THE CREATOR / DEVELOPER
   ══════════════════════════════════════════════ */}
+      {
+        /*
+        *
       <section className="section" id="creator">
         <div className="container">
           <div className="section-heading text-center">
@@ -859,6 +862,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
           </div>
         </div>
       </section>
+        *
+        * */
+      }
 
       {/* ══════════════════════════════════════════════
        FOOTER
@@ -874,7 +880,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
               A free, privacy-first browser extension for anyone who thinks deeply with AI. Your bookmarks stay on your device — always.
             </p>
             <p className="footer-creator-line">
-              Crafted with care by <a href="https://www.linkedin.com/in/cedric-lekene/" target="_blank" rel="noopener noreferrer" className="footer-creator-link">Cedric Lekene</a>
+              Crafted by <a href="https://www.linkedin.com/in/cedric-lekene/" target="_blank" rel="noopener noreferrer" className="footer-creator-link">Cedric Lekene</a>
             </p>
           </div>
 
