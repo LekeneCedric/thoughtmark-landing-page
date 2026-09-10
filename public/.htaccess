@@ -8,7 +8,7 @@
 </IfModule>
 
 <IfModule mod_headers.c>
-  <FilesMatch "\.(css|js|png|jpg|jpeg|svg|webp|woff2)$">
+  <FilesMatch "\.(css|js|png|jpg|jpeg|svg|webp|woff2|mp4|webm|avif)$">
     Header set Cache-Control "max-age=31536000, public, immutable"
   </FilesMatch>
   <FilesMatch "index\.html$">

@@ -191,7 +191,11 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
     "modalDepositLabel": "Deposit Address:",
     "modalCopyBtn": "Copy",
     "modalCopied": "Copied!",
-    "modalFooterNote": "Thank you for supporting decentralized, private, and local-first software."
+    "modalFooterNote": "Thank you for supporting decentralized, private, and local-first software.",
+    "demoBadge": "WATCH IT IN ACTION",
+    "demoTitle": "See how Thoughtmark works",
+    "demoSub": "A short walkthrough: pin a sentence, build your outline, and export a study guide.",
+    "demoNote": "Silent walkthrough — watch at your own pace."
   },
   "zh": {
     "navFeatures": "核心功能",
@@ -374,7 +378,11 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
     "modalDepositLabel": "收款地址：",
     "modalCopyBtn": "复制",
     "modalCopied": "已复制！",
-    "modalFooterNote": "感谢您支持去中心化、隐私优先、本地化的软件。"
+    "modalFooterNote": "感谢您支持去中心化、隐私优先、本地化的软件。",
+    "demoBadge": "观看演示",
+    "demoTitle": "看看 Thoughtmark 如何工作",
+    "demoSub": "简短演示：标记一句话、构建大纲并导出学习指南。",
+    "demoNote": "静音演示 — 可自行调节播放速度。"
   },
   "es": {
     "navFeatures": "Características",
@@ -557,7 +565,11 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
     "modalDepositLabel": "Dirección de depósito:",
     "modalCopyBtn": "Copiar",
     "modalCopied": "¡Copiado!",
-    "modalFooterNote": "Gracias por apoyar el software descentralizado, privado y local."
+    "modalFooterNote": "Gracias por apoyar el software descentralizado, privado y local.",
+    "demoBadge": "MÍRALO EN ACCIÓN",
+    "demoTitle": "Mira cómo funciona Thoughtmark",
+    "demoSub": "Un breve tutorial: marca una frase, crea tu esquema y exporta una guía de estudio.",
+    "demoNote": "Tutorial sin sonido — míralo a tu ritmo."
   },
   "fr": {
     "navFeatures": "Fonctionnalités",
@@ -740,7 +752,11 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
     "modalDepositLabel": "Adresse de dépôt :",
     "modalCopyBtn": "Copier",
     "modalCopied": "Copié !",
-    "modalFooterNote": "Merci de soutenir les logiciels décentralisés, privés et locaux."
+    "modalFooterNote": "Merci de soutenir les logiciels décentralisés, privés et locaux.",
+    "demoBadge": "VOYEZ-LE EN ACTION",
+    "demoTitle": "Découvrez comment fonctionne Thoughtmark",
+    "demoSub": "Un court aperçu : marquez une phrase, construisez votre plan et exportez un guide d'étude.",
+    "demoNote": "Aperçu sans son — regardez à votre rythme."
   },
   "de": {
     "navFeatures": "Funktionen",
@@ -923,7 +939,11 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
     "modalDepositLabel": "Einzahlungsadresse:",
     "modalCopyBtn": "Kopieren",
     "modalCopied": "Kopiert!",
-    "modalFooterNote": "Danke, dass du dezentrale, private und lokale Software unterstützt."
+    "modalFooterNote": "Danke, dass du dezentrale, private und lokale Software unterstützt.",
+    "demoBadge": "IN AKTION SEHEN",
+    "demoTitle": "So funktioniert Thoughtmark",
+    "demoSub": "Eine kurze Vorführung: einen Satz markieren, eine Gliederung erstellen und einen Leitfaden exportieren.",
+    "demoNote": "Stumme Vorführung — in Ihrem eigenen Tempo ansehen."
   },
   "ja": {
     "navFeatures": "機能",
@@ -1106,6 +1126,10 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
     "modalDepositLabel": "入金アドレス：",
     "modalCopyBtn": "コピー",
     "modalCopied": "コピー済み！",
-    "modalFooterNote": "分散型・プライバシー重視・ローカルファーストのソフトウェアを支援してくださりありがとうございます。"
+    "modalFooterNote": "分散型・プライバシー重視・ローカルファーストのソフトウェアを支援してくださりありがとうございます。",
+    "demoBadge": "動作を見る",
+    "demoTitle": "Thoughtmark の使い方を見る",
+    "demoSub": "短いデモ：文章をピン留めし、アウトラインを作成し、学習ガイドを書き出す流れをご紹介します。",
+    "demoNote": "音声なしのデモ — ご自身のペースでご覧ください。"
   }
 };

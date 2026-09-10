@@ -41,8 +41,8 @@
   <meta property="og:image" content="https://thoughtmark.app/assets/logo.png" />
   <meta property="og:image:secure_url" content="https://thoughtmark.app/assets/logo.png" />
   <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="128" />
+  <meta property="og:image:height" content="128" />
   <meta property="og:image:alt" content="Thoughtmark - AI Conversation Bookmarker &amp; Study Guide Exporter" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:locale:alternate" content="zh_CN" />
@@ -50,6 +50,13 @@
   <meta property="og:locale:alternate" content="fr_FR" />
   <meta property="og:locale:alternate" content="de_DE" />
   <meta property="og:locale:alternate" content="ja_JP" />
+
+  <!-- Demo Video (og:video) -->
+  <meta property="og:video" content="https://thoughtmark.app/assets/demo.mp4" />
+  <meta property="og:video:secure_url" content="https://thoughtmark.app/assets/demo.mp4" />
+  <meta property="og:video:type" content="video/mp4" />
+  <meta property="og:video:width" content="1280" />
+  <meta property="og:video:height" content="720" />
 
   <!-- Twitter / X Cards -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -87,7 +94,8 @@
         "name": "Thoughtmark",
         "url": "https://thoughtmark.app/",
         "image": "https://thoughtmark.app/assets/logo.png",
-        "screenshot": "https://thoughtmark.app/assets/logo.png",
+        "screenshot": "https://thoughtmark.app/assets/demo-poster.webp",
+        "video": { "@id": "https://thoughtmark.app/#demo" },
         "description": "The premier browser extension for Claude, ChatGPT, Gemini, and DeepSeek. Pin exact sentences, formulas, and code snippets into structured hierarchical tree outlines and export publication-ready study guides.",
         "applicationCategory": "BrowserExtension",
         "operatingSystem": "Google Chrome, Brave Browser, Mozilla Firefox, Microsoft Edge, Opera",
@@ -101,7 +109,12 @@
         "author": {
           "@type": "Organization",
           "name": "Thoughtmark Team",
-          "url": "https://thoughtmark.app/"
+          "url": "https://thoughtmark.app/",
+          "sameAs": [
+            "https://chromewebstore.google.com/detail/thoughtmark/mnmlfccbgcgbhbhpfckfpcfeikkiapom",
+            "https://addons.mozilla.org/firefox/addon/thoughtmark/",
+            "https://www.linkedin.com/in/cedric-lekene/"
+          ]
         },
         "featureList": [
           "Exact sentence, formula, and code block pinning",
@@ -124,7 +137,26 @@
           "name": "Thoughtmark",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://thoughtmark.app/assets/logo.svg"
+            "url": "https://thoughtmark.app/assets/logo.png"
+          }
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://thoughtmark.app/#demo",
+        "name": "Thoughtmark demo — how it works",
+        "description": "A short walkthrough of Thoughtmark: pin a sentence, build your outline, and export a study guide from Claude, ChatGPT, Gemini, and DeepSeek conversations.",
+        "thumbnailUrl": "https://thoughtmark.app/assets/demo-poster.webp",
+        "contentUrl": "https://thoughtmark.app/assets/demo.mp4",
+        "uploadDate": "2026-09-10",
+        "duration": "PT2M33.766S",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Thoughtmark",
+          "url": "https://thoughtmark.app/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://thoughtmark.app/assets/logo.png"
           }
         }
       },

@@ -4776,4 +4776,32 @@ button, select, input {
   }
 }
 
+/* ── Video Demo Section ─────────────────────────────────────────────────── */
+.demo-video-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.demo-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  background: #080B0D;
+  object-fit: contain;
+  border: none;
+}
+
+.demo-note {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
 

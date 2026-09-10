@@ -30,3 +30,6 @@ Thoughtmark is a free, local-first browser extension designed for developers, re
 - Website: https://thoughtmark.app/
 - Chrome Web Store: https://chromewebstore.google.com/detail/thoughtmark
 - Firefox Add-ons: https://addons.mozilla.org/firefox/addon/thoughtmark/
+
+## Demo Video
+- See Thoughtmark in action: https://thoughtmark.app/assets/demo.mp4

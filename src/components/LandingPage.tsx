@@ -589,6 +589,36 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
       </section>
 
       {/* ══════════════════════════════════════════════
+       VIDEO DEMO — How to use Thoughtmark
+  ══════════════════════════════════════════════ */}
+      <section className="section" id="demo">
+        <div className="container">
+          <div className="section-heading text-center">
+            <span className="section-badge" data-i18n="demoBadge">WATCH IT IN ACTION</span>
+            <h2 className="section-title serif-title" data-i18n="demoTitle">See how Thoughtmark works</h2>
+            <p className="section-sub" data-i18n="demoSub">A short walkthrough: pin a sentence, build your outline, and export a study guide.</p>
+          </div>
+
+          <div className="demo-video-wrap">
+            <video
+              className="demo-video"
+              controls
+              preload="none"
+              playsInline
+              poster="/assets/demo-poster.webp"
+              width={1280}
+              height={720}
+              aria-label="Thoughtmark demo video"
+            >
+              <source src="/assets/demo.webm" type="video/webm" />
+              <source src="/assets/demo.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════
        COMPARISON TABLE
   ══════════════════════════════════════════════ */}
       <section className="section" id="comparison">

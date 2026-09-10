@@ -53,3 +53,6 @@ Thumbs.db
 .stylelintcache
 .turbo/
 .cache/
+
+# Large source media (optimized web copies live in public/assets)
+/assets/demo.mp4
