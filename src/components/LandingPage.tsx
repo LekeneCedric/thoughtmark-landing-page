@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Star, Sparkles, Plus, Linkedin } from "lucide-react";
+import { Star, Sparkles, Plus } from "lucide-react";
 import { initLandingScript } from "../scripts/landingScript";
 import { ReviewModal } from "./ReviewModal";
 import { VERIFIED_COMMUNITY_FEEDBACK, FeedbackItem } from "../data/reviews";
@@ -111,7 +111,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
               <li><a href="#reviews">Reviews</a></li>
             )}
             <li><a href="#pricing" data-i18n="navPricing">Pricing</a></li>
-            <li><a href="#creator" data-i18n="navCreator">Creator</a></li>
           </ul>
 
           <div className="nav-right">
