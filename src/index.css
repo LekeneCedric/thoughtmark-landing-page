@@ -4578,7 +4578,7 @@ button, select, input {
 /* ── Creator / Developer Section ─────────────────────────────────────────── */
 .creator-card {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 1fr;
   gap: 44px;
   align-items: start;
   background: var(--bg-card);

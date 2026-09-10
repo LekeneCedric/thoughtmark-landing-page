@@ -187,7 +187,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
                 <span>◈</span> Available for Google Chrome &amp; Mozilla Firefox on Desktop.
               </div>
                  */
-              } 
+              }
             </div>
 
             {/* Dedicated Browser Availability Status Strip (Available Now vs Coming Soon) */}
@@ -834,18 +834,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
           </div>
 
           <div className="creator-card">
-            <div className="creator-avatar-wrap">
-              <img
-                src="/assets/cedric.jpg"
-                alt="Cedric Lekene — Software Engineer"
-                className="creator-avatar-img"
-                width="170"
-                height="170"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-
             <div className="creator-content">
               <div className="creator-header">
                 <div>
