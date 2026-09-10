@@ -841,6 +841,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
                 className="creator-avatar-img"
                 width="170"
                 height="170"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 
@@ -877,7 +879,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
         <div className="container footer-inner">
           <div className="footer-left">
             <div className="footer-logo">
-              <img src="/assets/logo.png" alt="Thoughtmark logo" width="26" height="26" className="footer-logo-img" style={{ borderRadius: "4px", objectFit: "contain" }} />
+              <img src="/assets/logo.png" alt="Thoughtmark logo" width="26" height="26" className="footer-logo-img" style={{ borderRadius: "4px", objectFit: "contain" }} loading="lazy" decoding="async" />
               <span className="serif-title">Thoughtmark</span>
             </div>
             <p className="footer-copy" data-i18n="footerCopy">
