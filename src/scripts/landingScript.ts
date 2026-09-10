@@ -189,6 +189,7 @@ export function initLandingScript(onOpenDonation: () => void): () => void {
   function detectBrowser() {
     const ua = (navigator.userAgent || "").toLowerCase();
     // if (ua.includes("firefox")) return "firefox";
+    if (ua.includes("toto")) return "firefox";
     if (ua.includes("chrome") || ua.includes("chromium") || ua.includes("edg/") || ua.includes("brave") || ua.includes("opr/")) return "chrome";
     return "other";
   }
