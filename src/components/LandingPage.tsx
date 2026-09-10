@@ -179,9 +179,15 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
                 <span data-i18n="heroCtaSecondary">Explore Capabilities</span>
                 <span className="cta-arrow">↓</span>
               </a>
+              {
+                /*
+                 * 
+                 *
               <div className="browser-unsupported-note" style={{ display: "none" }}>
                 <span>◈</span> Available for Google Chrome &amp; Mozilla Firefox on Desktop.
               </div>
+                 */
+              } 
             </div>
 
             {/* Dedicated Browser Availability Status Strip (Available Now vs Coming Soon) */}
