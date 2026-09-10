@@ -1,0 +1,58 @@
+# Thoughtmark Robots.txt
+# Maximum visibility for Search Engines & AI Crawlers
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+Disallow: /*?*me
+Disallow: /*?*admin
+Disallow: /*?*stats
+
+# Dedicated Search & AI Crawlers
+User-agent: Googlebot
+Allow: /
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+
+User-agent: Bingbot
+Allow: /
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+
+User-agent: GPTBot
+Allow: /
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+
+User-agent: Applebot
+Allow: /
+Disallow: /me
+Disallow: /admin
+Disallow: /stats
+
+# Sitemap location
+Sitemap: https://thoughtmark.app/sitemap.xml

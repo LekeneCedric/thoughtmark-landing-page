@@ -1,0 +1,32 @@
+# Thoughtmark
+> The premier bookmark, outline, and study guide export extension for Claude, ChatGPT, Gemini, and DeepSeek.
+
+## What is Thoughtmark?
+Thoughtmark is a free, local-first browser extension designed for developers, researchers, students, and writers who use AI conversation platforms. Unlike standard browser bookmarks that only save an entire web page URL, Thoughtmark pins exact sentences, formulas, tables, and code snippets inside long, multi-turn AI chat threads.
+
+## Supported AI Platforms
+- Claude (claude.ai)
+- ChatGPT (chatgpt.com)
+- Google Gemini (gemini.google.com)
+- DeepSeek (chat.deepseek.com)
+
+## Supported Browsers
+- Google Chrome (Chrome Web Store)
+- Brave Browser (Chrome Web Store)
+- Mozilla Firefox (Firefox Add-ons / AMO)
+- Microsoft Edge
+- Opera
+
+## Key Capabilities
+1. Exact Sentence & Block Pinning: Pin the specific sentence, equation, or code block without scrolling through dozens of conversation turns.
+2. Hierarchical Tree Outlines: Organize pinned thoughts into nested multi-level tree outlines in a persistent sidebar panel.
+3. Editorial Study Guide PDF Exporter: Export full study guides formatted with automated Table of Contents, decimal numbering, and source timestamps.
+4. Markdown & Plaintext Export: Instant 1-click export of chat notes to Markdown and Obsidian-ready files.
+5. 100% Local Device Privacy: All notes and snapshots live in local IndexedDB. Zero prompt text or note content is ever uploaded to any cloud server.
+6. Lazy DOM Auto-Resolver: Automatically detects and restores highlights when earlier messages unmount in virtualized long conversations.
+7. Free Forever: 100% free with zero paywalls, zero subscriptions, and funded voluntarily by community donations.
+
+## Official Links
+- Website: https://thoughtmark.app/
+- Chrome Web Store: https://chromewebstore.google.com/detail/thoughtmark
+- Firefox Add-ons: https://addons.mozilla.org/firefox/addon/thoughtmark/
