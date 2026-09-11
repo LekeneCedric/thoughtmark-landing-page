@@ -312,6 +312,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
       {/* ══════════════════════════════════════════════
        SECTION: LIVE STATS BAR
   ══════════════════════════════════════════════ */}
+      {
+        /*
+        *
+        *
       <section className="live-stats-bar-section">
         <div className="container">
           <div className="live-stats-bar">
@@ -325,19 +329,19 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
                 <span className="stat-num" id="stat-users-count">0+</span>
                 <span className="stat-label" data-i18n="statUsersLabel">Active Thinkers</span>
               </div>
-              {
-                /* 
                              <div className="stat-item-divider"></div>
                              <div className="stat-item">
                                <span className="stat-num" id="stat-installs-count">0+</span>
                                <span className="stat-label" data-i18n="statInstallsLabel">Extension Installs</span>
                              </div>
-                             */
               }
             </div>
           </div>
         </div>
       </section>
+        *
+        * */
+      }
 
       {/* ══════════════════════════════════════════════
        SECTION: USE CASES
