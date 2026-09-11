@@ -202,14 +202,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
                     <img src="/assets/chrome.png" alt="Google Chrome" width="16" height="16" className="browser-chip-icon" />
                     <span>Chrome</span>
                   </a>
-                  {
-                    /*
-                                <a className="browser-chip available" href="https://addons.mozilla.org/firefox/addon/thoughtmark/" target="_blank" rel="noopener" title="Install on Mozilla Firefox">
-                                  <img src="/assets/firefox.png" alt="Mozilla Firefox" width="16" height="16" className="browser-chip-icon" />
-                                  <span>Firefox</span>
-                                </a>
-                                */
-                  }
+                  <a className="browser-chip available" href="https://addons.mozilla.org/firefox/addon/thoughtmark/" target="_blank" rel="noopener" title="Install on Mozilla Firefox">
+                    <img src="/assets/firefox.png" alt="Mozilla Firefox" width="16" height="16" className="browser-chip-icon" />
+                    <span>Firefox</span>
+                  </a>
                   <a className="browser-chip available" href="https://chromewebstore.google.com/detail/thoughtmark/mnmlfccbgcgbhbhpfckfpcfeikkiapom" target="_blank" rel="noopener" title="Install on Brave Browser">
                     <img src="/assets/brave.jpeg" alt="Brave Browser" width="16" height="16" className="browser-chip-icon" />
                     <span>Brave</span>
@@ -236,12 +232,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onOpenDonation }) => {
                   <span className="browser-chip soon" title="Apple Safari (In Development)">
                     <img src="/assets/safari.jpeg" alt="Apple Safari" width="16" height="16" className="browser-chip-icon" />
                     <span>Safari</span>
-                    <span className="chip-soon-tag">Soon</span>
-                  </span>
-
-                  <span className="browser-chip soon" title="Apple Safari (In Development)">
-                    <img src="/assets/firefox.png" alt="Mozilla Firefox" width="16" height="16" className="browser-chip-icon" />
-                    <span>Firefox</span>
                     <span className="chip-soon-tag">Soon</span>
                   </span>
                 </div>
