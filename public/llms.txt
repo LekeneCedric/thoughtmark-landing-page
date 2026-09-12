@@ -5,15 +5,15 @@
 Thoughtmark is a free, local-first browser extension designed for developers, researchers, students, and writers who use AI conversation platforms. Unlike standard browser bookmarks that only save an entire web page URL, Thoughtmark pins exact sentences, formulas, tables, and code snippets inside long, multi-turn AI chat threads.
 
 ## Supported AI Platforms
-- Claude (claude.ai)
-- ChatGPT (chatgpt.com)
-- Google Gemini (gemini.google.com)
-- DeepSeek (chat.deepseek.com)
+- [Claude](https://claude.ai)
+- [ChatGPT](https://chatgpt.com)
+- [Google Gemini](https://gemini.google.com)
+- [DeepSeek](https://chat.deepseek.com)
 
 ## Supported Browsers
-- Google Chrome (Chrome Web Store)
-- Brave Browser (Chrome Web Store)
-- Mozilla Firefox (Firefox Add-ons / AMO)
+- [Google Chrome — Chrome Web Store](https://chromewebstore.google.com/detail/thoughtmark/mnmlfccbgcgbhbhpfckfpcfeikkiapom)
+- [Brave Browser — Chrome Web Store](https://chromewebstore.google.com/detail/thoughtmark/mnmlfccbgcgbhbhpfckfpcfeikkiapom)
+- [Mozilla Firefox — Firefox Add-ons](https://addons.mozilla.org/firefox/addon/thoughtmark/)
 - Microsoft Edge
 - Opera
 
@@ -27,9 +27,9 @@ Thoughtmark is a free, local-first browser extension designed for developers, re
 7. Free Forever: 100% free with zero paywalls, zero subscriptions, and funded voluntarily by community donations.
 
 ## Official Links
-- Website: https://thoughtmark.app/
-- Chrome Web Store: https://chromewebstore.google.com/detail/thoughtmark
-- Firefox Add-ons: https://addons.mozilla.org/firefox/addon/thoughtmark/
+- [Thoughtmark Website](https://thoughtmark.app/)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/thoughtmark/mnmlfccbgcgbhbhpfckfpcfeikkiapom)
+- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/thoughtmark/)
 
 ## Demo Video
-- See Thoughtmark in action: https://thoughtmark.app/assets/demo.mp4
+- [Watch the Thoughtmark demo](https://thoughtmark.app/assets/demo.mp4)
